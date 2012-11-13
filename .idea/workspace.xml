@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="902a7cf7-2c7d-47e5-b34c-d90b77f36f4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/impress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/impress-demo.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/presentations.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/presentations.css.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/logo-ethz.png" afterPath="$PROJECT_DIR$/app/assets/images/logo-ethz.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/logo-unc-chapel-hill.png" afterPath="$PROJECT_DIR$/app/assets/images/logo-unc-chapel-hill.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/impress-demo.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/impress-demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/presentations.css.less" afterPath="$PROJECT_DIR$/app/assets/stylesheets/presentations.css.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/presentations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/presentations/index.html.erb" />
     </list>
     <ignored path="scrum-presentation.iws" />
@@ -48,19 +47,37 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="18" selection-start="541" selection-end="541" vertical-scroll-proportion="0.16683519">
+                <state line="12" column="1" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="presentations.css.less" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Gemfile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="24" column="5" selection-start="628" selection-end="648" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="presentations.css.less" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/presentations.css.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="6" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
+                <state line="18" column="22" selection-start="294" selection-end="294" vertical-scroll-proportion="0.26341462">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194@global/gems/less-rails-bootstrap-2.1.1/vendor/frameworks/twitter/bootstrap/variables.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -69,7 +86,7 @@
           <file leaf-file-name="impress-demo.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/impress-demo.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="8" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+                <state line="59" column="1" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -106,10 +123,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/presentations/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="64" selection-start="802" selection-end="802" vertical-scroll-proportion="0.25222552">
+                <state line="50" column="36" selection-start="2769" selection-end="2769" vertical-scroll-proportion="0.56379825">
                   <folding />
                 </state>
               </provider>
@@ -141,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/scrum-presentation.html" />
         <option value="$PROJECT_DIR$/assets/javascripts/jquery-1.8.2.min.js" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/Procfile" />
@@ -150,13 +166,14 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/impress.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/impress-demo.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/presentations.css.less" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/impress-demo.css" />
         <option value="$PROJECT_DIR$/app/views/presentations/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/presentations.css.less" />
       </list>
     </option>
   </component>
@@ -497,7 +514,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.67007434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.67007434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -564,20 +581,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="43" selection-start="38" selection-end="43" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="652" selection-end="652" vertical-scroll-proportion="0.21278626">
@@ -595,13 +598,6 @@
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="0" selection-start="2798" selection-end="2798" vertical-scroll-proportion="0.85877866">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="36" selection-start="699" selection-end="699" vertical-scroll-proportion="0.3721374">
           <folding />
         </state>
       </provider>
@@ -631,7 +627,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="45" selection-start="410" selection-end="453" vertical-scroll-proportion="-6.875">
+        <state line="17" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
@@ -645,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/impress-demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrum-presentation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="45" selection-start="2543" selection-end="2543" vertical-scroll-proportion="-20.0">
@@ -659,23 +648,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/presentations.css.less">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/presentations/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="64" selection-start="802" selection-end="802" vertical-scroll-proportion="0.25222552">
+        <state line="24" column="5" selection-start="628" selection-end="648" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="541" selection-end="541" vertical-scroll-proportion="0.16683519">
+        <state line="12" column="1" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194@global/gems/less-rails-bootstrap-2.1.1/vendor/frameworks/twitter/bootstrap/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/impress-demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="1" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/presentations.css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="22" selection-start="294" selection-end="294" vertical-scroll-proportion="0.26341462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/presentations/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="36" selection-start="2769" selection-end="2769" vertical-scroll-proportion="0.56379825">
           <folding />
         </state>
       </provider>

@@ -1,10 +1,34 @@
+@import "twitter/bootstrap/variables";
+
 .step {
-  h1, h2, h3 {
+  h1, h2 {
+    line-height: 100%;
     text-align: center;
-    font-size: 300%;
+  }
+  h1 {
+    font-size: 400%;
+    color: @btnSuccessBackgroundHighlight;
+  }
+  h2 {
+    font-size: 250%;
+  }
+  h3 {
+    line-height: 100%;
+    font-size: 150%;
+  }
+  font-family: 'Open Sans', sans-serif;
+  ol > li {
+    line-height: 110%;
   }
 }
 
 body.impress-on-title-scrum .step.sub-title {
   opacity: 1;
+}
+
+#title-about-me-personal img {
+  margin: 10px;
+  &.google {
+    margin-top: 40px;
+  }
 }
