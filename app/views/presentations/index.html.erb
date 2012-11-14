@@ -1,8 +1,8 @@
-<div class="fallback-message">
+<div class="fallback-message" xmlns="http://www.w3.org/1999/html">
   <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
   <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
 </div>
-<div id="impress">
+<div id="impress" data-zoomFactor="<%= @zoom_factor %>">
 
   <div id="title-scrum" class="step" data-x="0" data-y="0" data-scale="4">
     <h1>Scrum</h1>
@@ -14,11 +14,15 @@
       <div class="span5 offset1"><%= image_tag "logo-unc-chapel-hill.png" %></div>
     </div>
     <div class="row">
-      <div class="span7"><%= image_tag "bhutan.jpg" %></div>
+      <div class="span7">
+        <%= image_tag "bhutan.jpg" %>
+        <p>sam.zurcher@gmail.com</p>
+      </div>
       <div class="span3">
         <%= image_tag "helvetas.jpg" %>
         <%= image_tag "logo-google.png", :class => "google" %>
         <%= image_tag "logo-swisscom.png" %>
+        <%= image_tag "logo-horizobu.png" %>
       </div>
     </div>
   </div>
@@ -35,9 +39,6 @@
       <li class="span3"><%= image_tag "scrum-experience-presentation-small007.jpeg" %></li>
       <li class="span3"><%= image_tag "scrum-experience-presentation-small008.jpeg" %></li>
       <li class="span3"><%= image_tag "scrum-experience-presentation-small009.jpeg" %></li>
-      <li class="span3"><%= image_tag "scrum-experience-presentation-small010.jpeg" %></li>
-      <li class="span3"><%= image_tag "scrum-experience-presentation-small011.jpeg" %></li>
-      <li class="span3"><%= image_tag "scrum-experience-presentation-small013.jpeg" %></li>
     </ul>
   </div>
 
@@ -77,14 +78,149 @@
     </p>
   </div>
 
-  <div id="title-team-rules" class="step sub-title" data-x="-2000" data-y="-500" data-scale="2">
-    <h2>Team Rules</h2>
+  <div id="transparency-problems-need-to-be-solved-actively" class="step item" data-x="210"
+       data-y="-450" data-scale="0.08" data-rotate="90">
+    <h3>Will problems just disappear?</h3>
+    <p>
+      <strong>No!</strong> What can <strong>you</strong> do to solve the problems?
+    </p>
   </div>
 
+  <div id="transparency-problems-first-retros" class="step item" data-x="-150"
+       data-y="-390" data-scale="0.08" data-rotate="-90">
+    <h3>So many problems, so little time?</h3>
+    <p>
+      It might seem like you have only problems. But don't worry, after a couple of months
+      and years, you will have resolved most of them. Focus and resolve one by one.
+    </p>
+  </div>
+
+  <div id="transparency-scope-and-launch-date" class="step item" data-x="-750"
+       data-y="-480" data-scale="0.08" data-rotate="-90">
+    <h3>Predefined Scope and Launch Date</h3>
+    <p>
+      Thanks to your estimations and capacity, you know whether the goal is realistic.
+    </p>
+    <p>
+      In the <strong>rare</strong> case that it is not realistic, you can
+      <strong>communicate</strong> and <strong>prioritize</strong> from the beginning.
+    </p>
+  </div>
+
+  <div id="transparency-scope-and-launch-date-ignorance" class="step item" data-x="-700"
+       data-y="-610" data-scale="0.08" data-rotate="0">
+    <h3>But hey, we really need to deliver the whole scope at an impossible date!</h3>
+    <p>
+      Feel free to shoot <strong>yourself</strong> into the foot. Welcome
+      <strong>technical debt</strong>, <strong>a lot of bugs</strong>, and an
+      <strong>unmaintainable piece of software</strong>.
+    </p>
+  </div>
 
   <div id="title-stories" class="step sub-title" data-x="2000" data-y="-500" data-scale="2">
     <h2>Stories</h2>
   </div>
+
+  <div id="stories-properties" class="step item" data-x="1910"
+       data-y="-480" data-scale="0.08" data-rotate="90">
+    <h3>Properties</h3>
+    <ul>
+      <li>Reasonable size</li>
+      <li>End to end</li>
+      <li>Motivational sentence</li>
+      <li>Acceptance criterias</li>
+      <li>Test cases</li>
+    </ul>
+  </div>
+
+  <div id="stories-size" class="step item" data-x="2130"
+       data-y="-480" data-scale="0.08" data-rotate="90">
+    <h3>Reasonable Size?</h3>
+    <p>Between <strong>0.5</strong> and <strong>8</strong> story points.</p>
+  </div>
+
+  <div id="stories-acceptance-criterias" class="step item" data-x="2050"
+       data-y="-460" data-scale="0.08" data-rotate="90">
+    <h3>Acceptance Criterias</h3>
+    <p>
+      Easily <strong>understandable</strong> and <strong>verifiable</strong>
+      definition of what needs to be done.
+    </p>
+  </div>
+
+  <div id="stories-setup-with-scrum" class="step item" data-x="2200"
+       data-y="-460" data-scale="0.04" data-rotate="180">
+    <h3>Does it make sense to setup a project with Scrum?</h3>
+    <p>
+      Yes. Stories for the setup.
+    </p>
+  </div>
+
+  <div id="stories-how-to-integrate-friends" class="step item" data-x="2100"
+       data-y="-605" data-scale="0.06" data-rotate="0">
+    <h3>How to Integrate Marketing?</h3>
+    <p>
+      Marketing is defining requirements for our software. They write stories.
+    </p>
+  </div>
+
+  <div id="stories-how-to-integrate-concepters" class="step item" data-x="2140"
+       data-y="-560" data-scale="0.08" data-rotate="90">
+    <h3>How to Integrate Concepters?</h3>
+    <p>
+      Again, they define requirements and write stories.
+    </p>
+  </div>
+
+  <!-- FIXME add answers in question 3 and 8 -->
+
+  <div id="title-estimations" class="step sub-title" data-x="0" data-y="500" data-scale="2">
+    <h2>Estimations</h2>
+  </div>
+
+  <div id="estimations-stories-presented" class="step item" data-x="210"
+       data-y="-450" data-scale="0.08" data-rotate="90">
+    <h3>Who prepares and presents a Story?</h3>
+    <ul>
+      <li>Business Engineer</li>
+      <li>Concepter</li>
+      <li>PO</li>
+      <li>Developer</li>
+    </ul>
+  </div>
+
+  <div id="estimations-discussion" class="step item" data-x="210"
+       data-y="-450" data-scale="0.08" data-rotate="90">
+    <h3>What to discuss?</h3>
+    <p>
+      <strong>Only</strong> what is relevant for the estimation itself. Leave out
+      everything else.
+    </p>
+  </div>
+
+  <div id="estimations-indicators" class="step item" data-x="210"
+       data-y="-450" data-scale="0.08" data-rotate="90">
+    <h3>How do we estimate?</h3>
+    <p>
+      <strong>Simple criterias.</strong> Simple/complicated service? How many
+      input fields on the UI? How many open points? With which systems do we have
+      to interact?
+    </p>
+  </div>
+
+  <div id="estimations-open-issues" class="step item" data-x="210"
+       data-y="-450" data-scale="0.08" data-rotate="90">
+    <h3>There are open questions - what now?</h3>
+    <p>
+      <strong>Define</strong> and <strong>document assumptions</strong>. Estimate
+      based on those assumptions.
+    </p>
+  </div>
+
+  <div id="title-team-rules" class="step sub-title" data-x="-2000" data-y="-500" data-scale="2">
+    <h2>Team Rules</h2>
+  </div>
+
 
   <div id="title-pragmatism" class="step sub-title" data-x="-2000" data-y="0" data-scale="2">
     <h2>Pragmatism</h2>
@@ -98,9 +234,6 @@
     <h2>Daily</h2>
   </div>
 
-  <div id="title-estimations" class="step sub-title" data-x="0" data-y="500" data-scale="2">
-    <h2>Estimations</h2>
-  </div>
 
   <div id="title-sprint" class="step sub-title" data-x="2000" data-y="500" data-scale="2">
     <h2>Sprint</h2>

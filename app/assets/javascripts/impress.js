@@ -161,7 +161,7 @@
             scale = config.minScale;
         }
 
-        return scale;
+        return scale * zoomFactor;
     };
 
     // CHECK SUPPORT
@@ -207,6 +207,8 @@
 
         transitionDuration: 1000
     };
+
+    var zoomFactor = 1;
 
     // it's just an empty function ... and a useless comment.
     var empty = function () { return false; };
@@ -351,6 +353,7 @@
                 perspective: toNumber( rootData.perspective, defaults.perspective ),
                 transitionDuration: toNumber( rootData.transitionDuration, defaults.transitionDuration )
             };
+            zoomFactor = toNumber(rootData.zoomFactor, 1)
 
             windowScale = computeWindowScale( config );
 
@@ -564,6 +567,16 @@
             return goto(next);
         };
 
+        var zoomIn = function() {
+            zoomFactor *=  1.1;
+            return goto(activeStep);
+        };
+
+        var zoomOut = function() {
+            zoomFactor *=  0.9;
+            return goto(activeStep);
+        };
+
         // Adding some useful classes to step elements.
         //
         // All the steps that have not been shown yet are given `future` class.
@@ -635,7 +648,9 @@
             init: init,
             goto: goto,
             next: next,
-            prev: prev
+            prev: prev,
+            zoomIn: zoomIn,
+            zoomOut: zoomOut
         });
 
     };
@@ -681,7 +696,8 @@
 
         // Prevent default keydown action when one of supported key is pressed.
         document.addEventListener("keydown", function ( event ) {
-            if ( event.keyCode === 9 || ( event.keyCode >= 32 && event.keyCode <= 34 ) || (event.keyCode >= 37 && event.keyCode <= 40) ) {
+            if ( event.keyCode === 9 || ( event.keyCode >= 32 && event.keyCode <= 34 ) ||
+                (event.keyCode >= 37 && event.keyCode <= 40) ) {
                 event.preventDefault();
             }
         }, false);
@@ -702,19 +718,24 @@
         //   as another way to moving to next step... And yes, I know that for the sake of
         //   consistency I should add [shift+tab] as opposite action...
         document.addEventListener("keyup", function ( event ) {
-            if ( event.keyCode === 9 || ( event.keyCode >= 32 && event.keyCode <= 34 ) || (event.keyCode >= 37 && event.keyCode <= 40) ) {
+            if ( event.keyCode === 9 || ( event.keyCode >= 32 && event.keyCode <= 34 ) ||
+                (event.keyCode >= 37 && event.keyCode <= 40) ) {
                 switch( event.keyCode ) {
                     case 33: // pg up
                     case 37: // left
-                    case 38: // up
                         api.prev();
                         break;
                     case 9:  // tab
                     case 32: // space
                     case 34: // pg down
                     case 39: // right
-                    case 40: // down
                         api.next();
+                        break;
+                    case 38: // up
+                        api.zoomIn();
+                        break;
+                    case 40: // down
+                        api.zoomOut();
                         break;
                 }
 
