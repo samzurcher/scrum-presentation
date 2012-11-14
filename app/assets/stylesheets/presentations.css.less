@@ -2,23 +2,28 @@
 
 .step {
   h1, h2 {
-    line-height: 100%;
     text-align: center;
   }
   h1 {
+    line-height: 100%;
     font-size: 400%;
     color: @btnSuccessBackgroundHighlight;
   }
   h2 {
     font-size: 250%;
+    line-height: 100%;
   }
   h3 {
     line-height: 100%;
     font-size: 150%;
   }
   font-family: 'Open Sans', sans-serif;
+  line-height: 100%;
   ol > li {
     line-height: 110%;
+  }
+  ol {
+    padding-left: inherit;
   }
 }
 
@@ -26,9 +31,13 @@ body.impress-on-title-scrum .step.sub-title {
   opacity: 1;
 }
 
-#title-about-me-personal img {
+#about-me-personal img {
   margin: 10px;
   &.google {
     margin-top: 40px;
   }
+}
+
+#title-transparency h2 {
+  color: @btnDangerBackgroundHighlight;
 }
