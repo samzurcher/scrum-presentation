@@ -102,7 +102,7 @@
           <file leaf-file-name="presentations.css.less" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/presentations.css.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="16" selection-start="470" selection-end="470" vertical-scroll-proportion="0.16507633">
+                <state line="21" column="20" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0648855">
                   <folding />
                 </state>
               </provider>
@@ -133,7 +133,7 @@
           <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/presentations/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="194" column="8" selection-start="7905" selection-end="7905" vertical-scroll-proportion="-0.625">
+                <state line="194" column="8" selection-start="7905" selection-end="7905" vertical-scroll-proportion="135.375">
                   <folding />
                 </state>
               </provider>
@@ -142,8 +142,10 @@
           <file leaf-file-name="impress.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/javascripts/impress.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="568" column="0" selection-start="22047" selection-end="22047" vertical-scroll-proportion="0.0">
-                  <folding />
+                <state line="576" column="36" selection-start="0" selection-end="31983" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -151,7 +153,7 @@
           <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="41" selection-start="1863" selection-end="1863" vertical-scroll-proportion="0.64217556">
+                <state line="48" column="84" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.64217556">
                   <folding />
                 </state>
               </provider>
@@ -232,7 +234,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -409,12 +410,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scrum-presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scrum-presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -529,7 +553,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24919786" sideWeight="0.67007434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919786" sideWeight="0.67007434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -658,20 +682,6 @@
         <state line="9" column="3" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/presentations.css.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="16" selection-start="470" selection-end="470" vertical-scroll-proportion="0.16507633">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/presentations/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="8" selection-start="7905" selection-end="7905" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/production.log">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -679,16 +689,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/presentations.css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="20" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0648855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/impress.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="568" column="0" selection-start="22047" selection-end="22047" vertical-scroll-proportion="0.0">
+        <state line="576" column="36" selection-start="0" selection-end="31983" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/presentations/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="8" selection-start="7905" selection-end="7905" vertical-scroll-proportion="135.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="41" selection-start="1863" selection-end="1863" vertical-scroll-proportion="0.64217556">
+        <state line="48" column="84" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.64217556">
           <folding />
         </state>
       </provider>
