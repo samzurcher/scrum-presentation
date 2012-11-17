@@ -19,10 +19,10 @@
         <p>sam.zurcher@gmail.com</p>
       </div>
       <div class="span3">
-        <%= image_tag "helvetas.jpg" %>
-        <%= image_tag "logo-google.png", :class => "google" %>
-        <%= image_tag "logo-swisscom.png" %>
-        <%= image_tag "logo-horizobu.png" %>
+        <%= link_to image_tag("helvetas.jpg"), "http://www.helvetas.org" %>
+        <%= link_to image_tag("logo-google.png", :class => "google"), "http://www.google.com" %>
+        <%= link_to image_tag("logo-swisscom.png"), "http://www.swisscom.ch" %>
+        <%= link_to image_tag("logo-horizobu.png"), "http://www.horizobu.com" %>
       </div>
     </div>
   </div>
@@ -70,12 +70,13 @@
     <h2>Pragmatism</h2>
   </div>
 
-  <div id="pragmatism-your-context-might-be-unique" class="step item" data-x="-2230" data-y="0" data-scale="0.05">
+  <div id="pragmatism-your-context-might-be-unique" class="step item" data-x="-2230" data-y="5" data-scale="0.05">
     <h3>Your Context!</h3>
     <p>
       <strong>You</strong> know your context best. Try out and see what works best.
       <strong>Don't</strong> do something because it is written in a book. Do it because it <strong>works</strong>.
     </p>
+    <%= image_tag "teamfoto.jpg" %>
   </div>
 
   <div id="title-transparency" class="step sub-title" data-x="0" data-y="-500" data-scale="2">
@@ -160,7 +161,7 @@
     </p>
   </div>
 
-  <div id="stories-record-time-spent" class="step item" data-x="2130"
+  <div id="stories-record-time-spent" class="step item" data-x="2080"
        data-y="-480" data-scale="0.08" data-rotate="90">
     <h3>Record Time Spent</h3>
     <p>
@@ -177,10 +178,11 @@
   </div>
 
   <div id="stories-how-to-integrate-friends" class="step item" data-x="2100"
-       data-y="-605" data-scale="0.06" data-rotate="0">
+       data-y="-610" data-scale="0.06" data-rotate="0">
     <h3>How to Integrate Marketing?</h3>
     <p>
       Marketing is defining requirements for our software. They write stories.
+      They can be part of the reviews. They can be there to answer questions.
     </p>
   </div>
 
@@ -188,7 +190,7 @@
        data-y="-560" data-scale="0.05" data-rotate="90">
     <h3>How to Integrate Concepters?</h3>
     <p>
-      Again, they define requirements and write stories.
+      Same as marketing.
     </p>
   </div>
 
@@ -286,8 +288,23 @@
     </ul>
   </div>
 
+  <div id="daily-be-strict" class="step item" data-x="-2220"
+       data-y="470" data-scale="0.06" data-rotate="90">
+    <h3>Be Strict</h3>
+    <p>You are <strong>not</strong> here to make friends. Remind people about the rules.</p>
+  </div>
+
   <div id="title-team" class="step sub-title" data-x="2000" data-y="0" data-scale="2">
     <h2>Team</h2>
+  </div>
+
+  <div id="team-self-organizing-and-responsible-team" class="step item" data-x="2020"
+       data-y="-60" data-scale="0.06" data-rotate="0">
+    <h3>Responsibility</h3>
+    <p>
+      Make sure that your team is self organizing and self responsible. Be very strict
+      about this!
+    </p>
   </div>
 
   <div id="team-pair-programming-interviews-motiviation" class="step item" data-x="1730"
@@ -303,22 +320,23 @@
   </div>
 
   <div id="team-pair-programming-interviews" class="step item" data-x="1800"
-       data-y="-100" data-scale="0.06" data-rotate="0">
+       data-y="-120" data-scale="0.06" data-rotate="0">
     <h3>Pair Programming Interviews!</h3>
     <p>
       <strong>Every</strong> candidate has to get through a 3 hour
       pair programming interview.
     </p>
+    <%= image_tag "pairprogramming.jpg" %>
   </div>
 
   <div id="team-pair-programming-interview-what-do-we-do" class="step item" data-x="1730"
        data-y="-40" data-scale="0.05" data-rotate="0">
     <h3>What Happens during a Pair Programming Interview?</h3>
     <ol>
-      <li>Big picture view of one area of our code</li>
-      <li>Task that requires both big picture view and algorithmic skills</li>
-      <li>Candidate navigates and writes code</li>
-      <li>Questions about implementation</li>
+      <li>Big picture view of one area of our code.</li>
+      <li>Task that requires both big picture view and algorithmic skills.</li>
+      <li>Candidate navigates and writes code.</li>
+      <li>Questions about implementation.</li>
     </ol>
     <p>
       <strong>Goal:</strong> As much production ready code as possible.
@@ -362,7 +380,7 @@
     </p>
   </div>
 
-  <div id="team-rules" class="step item" data-x="2245"
+  <div id="team-rules" class="step item" data-x="2300"
        data-y="60" data-scale="0.05" data-rotate="90">
     <h3>Team Rules</h3>
     <p>
@@ -370,8 +388,8 @@
     </p>
   </div>
 
-  <div id="team-rules-definition-of-done" class="step item" data-x="2245"
-       data-y="60" data-scale="0.05" data-rotate="90">
+  <div id="team-rules-definition-of-done" class="step item" data-x="2300"
+       data-y="0" data-scale="0.05" data-rotate="90">
     <h3>Definition of Done</h3>
     <p>
       Define it! And live up to it.
@@ -379,7 +397,7 @@
   </div>
 
   <div id="team-rules-dont-be-friends-with-everybody" class="step item" data-x="2245"
-       data-y="60" data-scale="0.05" data-rotate="90">
+       data-y="-65" data-scale="0.05" data-rotate="0">
     <h3>Awkward! Uncomfortable!</h3>
     <p>
       Don't try to be friends with everybody! A team needs people that try to resolve
@@ -387,27 +405,27 @@
     </p>
   </div>
 
-  <div id="team-meetings" class="step item" data-x="2245"
-       data-y="60" data-scale="0.05" data-rotate="90">
+  <div id="team-meetings" class="step item" data-x="2145"
+       data-y="-65" data-scale="0.05" data-rotate="0">
     <h3>Meetings are Expensive!</h3>
     <p>
       Keep them short with the minimal number of people.
-      Have a clear agenda and a protocol sent to all the participants. 
+      Have a clear agenda and a protocol sent to all the participants.
+      Be punctual!
     </p>
-    <p>Be punctual!</p>
   </div>
 
-  <div id="team-two-people" class="step item" data-x="2245"
-       data-y="60" data-scale="0.05" data-rotate="90">
+  <div id="team-two-people" class="step item" data-x="2100"
+       data-y="-55" data-scale="0.05" data-rotate="-90">
     <h3>Together</h3>
     <p>
       Have at least two people per story. Knowledge is automatically shared.
     </p>
   </div>
 
-  <div id="team-scout-rule" class="step item" data-x="2245"
-       data-y="60" data-scale="0.05" data-rotate="90">
-    <h3>Scouting</h3>
+  <div id="team-scout-rule" class="step item" data-x="2100"
+       data-y="0" data-scale="0.05" data-rotate="-90">
+    <h3>Scout Law</h3>
     <p>
       Continuously improve your environment.
     </p>
@@ -418,29 +436,35 @@
     <h2>Retrospective</h2>
   </div>
 
-  <div id="retrospective-everybody-has-input" class="step item" data-x="2245"
-       data-y="60" data-scale="0.05" data-rotate="90">
+  <div id="retrospective-everybody-has-input" class="step item" data-x="1760"
+       data-y="500" data-scale="0.05" data-rotate="0">
     <h3>Everybody!</h3>
     <p>
       Everybody has valuable input. Use techniques that ensure this!
     </p>
   </div>
 
-  <div id="retrospective-focus-on-few-points" class="step item" data-x="2245"
-       data-y="60" data-scale="0.05" data-rotate="90">
+  <div id="retrospective-focus-on-few-points" class="step item" data-x="2600"
+       data-y="470" data-scale="0.05" data-rotate="0">
     <h3>Focus!</h3>
     <p>
       Focus on a very limited number of points.
     </p>
   </div>
 
-  <div id="retrospective-outcomes" class="step item" data-x="2245"
-       data-y="60" data-scale="0.05" data-rotate="90">
+  <div id="retrospective-outcomes" class="step item" data-x="2730"
+       data-y="490" data-scale="0.05" data-rotate="0">
     <h3>Outcomes</h3>
     <p>
       Make sure you have <strong>concrete</strong> and <strong>verifiable outcomes</strong>.
       Make sure <strong>somebody</strong> is <strong>responsible</strong>.
     </p>
+  </div>
+
+  <div id="thank-you" class="step thank-you" data-x="0" data-y="1200" data-scale="4">
+    <h2>Thank you!</h2>
+    <p><%= link_to "sam.zurcher@gmail.com", "mailto:sam.zurcher@gmail.com" %></p>
+    <p><%= link_to "http://www.linkedin.com/in/samzurcher", "http://www.linkedin.com/in/samzurcher" %></p>
   </div>
 </div>
 <div class="hint">
