@@ -2,79 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="902a7cf7-2c7d-47e5-b34c-d90b77f36f4d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ScrumVortrag_26_10-d77e53d1ecaf4fa9bf5ae0734c5ec6c5.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ScrumVortrag_26_10.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-6d55989da558f84b904f003ad58b6519.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-6d55989da558f84b904f003ad58b6519.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-79c93351fa25aa5c96b128a19c8b8e1c.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-79c93351fa25aa5c96b128a19c8b8e1c.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bhutan-fe91ce5c868e8b7b218206519bff1454.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bhutan.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/helvetas-47a8903272d1d63e9ff8427ebf1a657a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/helvetas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo-ethz-4a9c25198b29aa8d7092984b7e7b7d62.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo-ethz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo-google-aa5b4e431210c1ac7ee44bd6beaa16e1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo-google.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo-horizobu-cc5a559938fca245ecc8822af23ec946.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo-horizobu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo-swisscom-d09f776e72a4adf617f60b33b2ac16c0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo-swisscom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo-unc-chapel-hill-b29b74bade7c043475b6fa9c0ef07b28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo-unc-chapel-hill.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/pairprogramming-bdf9aac63441e97c3873cd67478c6f87.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/pairprogramming.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails-be8732dac73d845ac5b142c8fb5f9fb0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small000-7eca2f641162af698477086ee6055419.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small000.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small001-4034376f85d3ed1ccbd0072601ac9e36.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small001.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small002-8aca7f62d306edcba6f640a04b0f9e9a.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small002.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small003-4cd48a27c96fe64a05482a4197a09aa9.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small003.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small004-24d3150bbb418e4ce32520e713321271.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small004.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small005-f3a4d6c2780c3dcef2aa1cff52831692.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small005.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small006-da2f6e24b4d7dcea3d685e2c4271a569.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small006.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small007-71a85aad48c8aee0db052d100ff78c66.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small007.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small008-e04560e3f9f5e14d5542edc84b854f3f.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small008.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small009-87594463288ad1474a6cb43a1de78b24.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small009.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small010-aa6e9097a6089a8a7cd852a4b2bcf1c2.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small010.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small011-66cce491b66546b7d69e54df129e7950.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small011.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small012-cd397b077e4744a6844e41c064fc09e1.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small012.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small013-777146c01ddccaf8d53f97f9b2632686.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small013.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small014-851093cb88a5e1429f2f7f1365ee1e33.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small014.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small015-27820677d6380e39cbeeed4562423c0c.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small015.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small016-23c4314fab62759a26a048e7a578bf18.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small016.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small017-a20622840534ba40b38a9315f7baf3f1.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small017.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small018-f64e8a5cf5c4b342be1ea6c91b43a07d.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/scrum-experience-presentation-small018.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/teamfoto-c76016097bfe5c183261af5793174fe3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/teamfoto.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-ab3144065a860d198f1d7d9a4882640c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-white-13553a5bf21ae3cc374006592488ec64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <ignored path="scrum-presentation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -152,7 +80,7 @@
           <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="84" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.64217556">
+                <state line="17" column="30" selection-start="650" selection-end="650" vertical-scroll-proportion="0.24332061">
                   <folding />
                 </state>
               </provider>
@@ -713,7 +641,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="84" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.64217556">
+        <state line="17" column="30" selection-start="650" selection-end="650" vertical-scroll-proportion="0.24332061">
           <folding />
         </state>
       </provider>
