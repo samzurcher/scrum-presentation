@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="902a7cf7-2c7d-47e5-b34c-d90b77f36f4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scrum-presentation.iml" afterPath="$PROJECT_DIR$/.idea/scrum-presentation.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/presentations.css.less" afterPath="$PROJECT_DIR$/app/assets/stylesheets/presentations.css.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/presentations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/presentations/index.html.erb" />
     </list>
     <ignored path="scrum-presentation.iws" />
@@ -60,19 +57,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/presentations/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="418" column="56" selection-start="15667" selection-end="15667" vertical-scroll-proportion="-3.9166667">
+                <state line="194" column="8" selection-start="7905" selection-end="7905" vertical-scroll-proportion="0.3408203">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="impress.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="impress.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/javascripts/impress.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="561" column="54" selection-start="21831" selection-end="21831" vertical-scroll-proportion="0.014312977">
+                <state line="561" column="54" selection-start="21831" selection-end="21831" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -598,16 +595,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/presentations/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/impress.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="418" column="56" selection-start="15667" selection-end="15667" vertical-scroll-proportion="-3.9166667">
+        <state line="561" column="54" selection-start="21831" selection-end="21831" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/impress.js">
+    <entry file="file://$PROJECT_DIR$/app/views/presentations/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="561" column="54" selection-start="21831" selection-end="21831" vertical-scroll-proportion="0.014312977">
+        <state line="194" column="8" selection-start="7905" selection-end="7905" vertical-scroll-proportion="0.3408203">
           <folding />
         </state>
       </provider>
